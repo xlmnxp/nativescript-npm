@@ -2,6 +2,8 @@
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/app.routing.js
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/app.component.js
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/app.module.js
+/home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/views/main.component.js
+/home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/views/package.component.js
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/trace.js
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/renderer.js
 /home/xlmnxp/Documents/Nativescript/nativescript-npm/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/resource-loader.js

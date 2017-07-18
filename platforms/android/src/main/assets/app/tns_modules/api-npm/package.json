@@ -1,0 +1,57 @@
+{
+  "_from": "api-npm",
+  "_id": "api-npm@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-WzNYmoxY6+eHIdPJoR9ugYLwCiY=",
+  "_location": "/api-npm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "api-npm",
+    "name": "api-npm",
+    "escapedName": "api-npm",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/api-npm/-/api-npm-1.0.0.tgz",
+  "_shasum": "5b33589a8c58ebe78721d3c9a11f6e8182f00a26",
+  "_spec": "api-npm",
+  "_where": "/home/xlmnxp/Documents/Nativescript/nativescript-npm",
+  "author": {
+    "name": "Anirban Bhattacharya"
+  },
+  "bugs": {
+    "url": "https://github.com/anisoftcorporation/api-npm/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This module will do query NPM registry to fetch any NPM module details including statistics.",
+  "homepage": "https://github.com/anisoftcorporation/api-npm#readme",
+  "keywords": [
+    "api",
+    "npm",
+    "registry",
+    "query",
+    "npm",
+    "qury",
+    "anisoftcorporation",
+    "anirban"
+  ],
+  "license": "ISC",
+  "main": "api.js",
+  "name": "api-npm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisoftcorporation/api-npm.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

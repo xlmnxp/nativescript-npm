@@ -1,9 +1,8 @@
-<ActionBar title="NPM search" icon="" class="action-bar">
+<ActionBar title="NPM search" class="action-bar">
 </ActionBar>
 <GridLayout rows="auto,*">
-    <!-- (textChange)="onTextChanged($event)" -->
-    <SearchBar row="0" id="searchBar" hint="Search" text="" (clear)="onClear()" (submit)="onTextChanged($event)" class="search-bar"></SearchBar>
-    <ListView row="1" [items]="packages | async" class="list-group">
+    <SearchBar row="0" id="searchBar" hint="Search" (textChange)="onTextChanged($event)" (clear)="onClear()" (submit)="onTextChanged($event)" class="search-bar"></SearchBar>
+    <ListView row="1" [items]="packages | async" (itemTap)="onPackage($event)" class="list-group">
         <ng-template let-item="item">
           <GridLayout rows="auto,auto,auto">
             <Label row="0" [text]="item.package.name" class="list-group-item transparent-background" style="font-weight: bold;"></Label>

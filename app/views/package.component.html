@@ -1,0 +1,25 @@
+<ActionBar class="action-bar">
+    <StackLayout>
+        <Label [text]="(package | async)?.name" textWrap="true"></Label>
+    </StackLayout>
+</ActionBar>
+<StackLayout class="list-group">
+    <Label [text]="(package | async)?.name" textWrap="true" class="list-group-item transparent-background"></Label>
+    <button [text]="(package | async)?.author?.name" color="white" class="list-group-item btn btn-primary btn-link"></button>
+    <GridLayout columns="*,*" class="list-group-item transparent-background" height="50">
+        <Label col="0" [text]="(package | async)?.version" style="text-align: center;"></Label>
+        <Label col="1" [text]="(package | async)?.license" style="text-align: center;"></Label>
+    </GridLayout>
+    <Label *ngIf="(package | async)?.contributors" text="Contributors" style="text-align: center;font-weight: bold;"></Label>
+    <ListView *ngIf="(package | async)?.contributors" [items]="(package | async)?.contributors" class="list-group" height="300">
+        <ng-template let-contributor="item">
+            <GridLayout columns="*,*" height="50">
+                <Label col="0" [text]="contributor?.name" class="list-group-item transparent-background" style="text-align: center;"></Label>
+                <Label col="1" [text]="contributor?.email" class="list-group-item transparent-background" style="text-align: center;"></Label>                  
+            </GridLayout>            
+        </ng-template>
+    </ListView>
+    <button text="Download" color="white" class="list-group-item btn btn-primary btn-link"></button>
+    <Progress value="50" max="100" min="0" class="progress"></Progress>
+    
+</StackLayout>

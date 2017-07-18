@@ -7,6 +7,7 @@
     "@angular/http": true,
     "@angular/platform-browser": true,
     "@angular/router": true,
+    "https": true,
     "nativescript-angular": true,
     "nativescript-intl": true,
     "reflect-metadata": true,

@@ -11,3 +11,6 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/core.light.css';
 @import '~/npm-theme.css';
+.transparent-background{
+    background-color: transparent;
+}
