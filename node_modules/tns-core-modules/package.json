@@ -1,0 +1,74 @@
+{
+  "_from": "tns-core-modules@~3.1.0",
+  "_id": "tns-core-modules@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-iSXsrhZWsytOMmVJjLI8EHjC9mc=",
+  "_location": "/tns-core-modules",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "tns-core-modules@~3.1.0",
+    "name": "tns-core-modules",
+    "escapedName": "tns-core-modules",
+    "rawSpec": "~3.1.0",
+    "saveSpec": null,
+    "fetchSpec": "~3.1.0"
+  },
+  "_requiredBy": [
+    "/tns-template-hello-world-ng"
+  ],
+  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-3.1.0.tgz",
+  "_shasum": "8925ecae1656b32b4e3265498cb23c1078c2f667",
+  "_spec": "tns-core-modules@~3.1.0",
+  "_where": "/home/xlmnxp/Documents/Nativescript/nativescript-npm/node_modules/tns-template-hello-world-ng",
+  "bundleDependencies": false,
+  "dependencies": {
+    "tns-core-modules-widgets": "3.1.0"
+  },
+  "deprecated": false,
+  "description": "Telerik NativeScript Core Modules",
+  "devDependencies": {
+    "@types/node": "~7.0.5",
+    "tns-platform-declarations": "*"
+  },
+  "files": [
+    "**/*.d.ts",
+    "**/*.js",
+    "!android17.d.ts",
+    "!ios.d.ts",
+    "!bin/",
+    "!apps/",
+    "!build/",
+    "!node-tests/",
+    "!declarations.android.d.ts",
+    "!declarations.ios.d.ts",
+    "!gruntfile.js",
+    "!org.nativescript.widgets.d.ts"
+  ],
+  "homepage": "https://www.nativescript.org",
+  "license": "Apache-2.0",
+  "name": "tns-core-modules",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NativeScript/NativeScript/commit/786f5c5e2052e34f5b68cbee35d242a436c8e712"
+  },
+  "snapshot": {
+    "android": {
+      "tns-java-classes": {
+        "modules": [
+          "ui/frame/activity",
+          "ui/frame/fragment"
+        ]
+      }
+    }
+  },
+  "typings": "tns-core-modules.d.ts",
+  "version": "3.1.0"
+}
