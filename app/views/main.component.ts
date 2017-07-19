@@ -12,7 +12,7 @@ import { ListView } from "ui/list-view";
 export class MainComponent { 
     public packages: BehaviorSubject<any> = new BehaviorSubject([]);
     private lastQuery: Date;
-    constructor(public router: Router) {}
+    constructor(public router: Router) { }
 
     onClear(){
         this.packages.next([]);

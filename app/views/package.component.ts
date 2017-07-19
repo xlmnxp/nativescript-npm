@@ -19,11 +19,6 @@ export class PackageComponent implements OnInit{
     });
   }
 
-  constructor(public route: ActivatedRoute) {
-    // npmAPI.getdetails(this.name, r =>{
-    //   this.package.next(r);
-    // })
-
-  }
+  constructor(public route: ActivatedRoute) { }
   
 }
