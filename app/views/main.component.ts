@@ -26,11 +26,11 @@ export class MainComponent {
         let searchBar = <SearchBar>$event.object;
         let newQuery = new Date();
         this.lastQuery = new Date();
-
+        this.packages.next([]);        
         fetch(`https://www.npmjs.com/-/search?text=${encodeURIComponent(searchBar.text)}&quality=1.95&popularity=3.3&maintenance=2.05`)
         .then(r => r.json())
         .then(r => {
-            if(this.lastQuery.getMinutes() == newQuery.getMinutes()){
+            if(this.lastQuery.getMinutes() <= newQuery.getMinutes()){
                 let results = r["objects"].sort((a, b) => 
                     b.searchScore - a.searchScore
                 );
